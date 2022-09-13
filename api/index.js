@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 
 app.get('/api', (req, res) => {
-    res.send('API Currently Used By <a href="https://anikatsu.ga">AniKatsu</a>')
+    res.send('API Currently in Use')
 })
 
 app.get('/api/getPopular/:page', async (req, res) => {
